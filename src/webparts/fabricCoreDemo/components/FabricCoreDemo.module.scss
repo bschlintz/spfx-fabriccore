@@ -1,0 +1,45 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.fabricCoreDemo {
+  .container {
+    margin: 0px auto;
+    max-width: 1400px;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-black;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  .column1 {
+    @include ms-Grid-col;
+    @include ms-md12;
+    @include ms-lg4;
+    @include ms-xl4;
+    background-color: #fc8181;
+    padding: 20px;
+  }
+
+  .column2 {
+    @include ms-Grid-col;
+    @include ms-md12;
+    @include ms-lg4;
+    @include ms-xl6;
+    background-color: #a5fc81;
+    padding: 20px;
+  }
+
+  .column3 {
+    @include ms-Grid-col;
+    @include ms-md12;
+    @include ms-lg4;
+    @include ms-xl2;
+    background-color: #81d4fc;
+    padding: 20px;
+  }
+
+}
